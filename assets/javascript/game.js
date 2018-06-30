@@ -10,16 +10,23 @@ var name = prompt ["player 1, enter your name."];
 var word = prompt["player 1, enter your word."];
 var bandNames = ['Nirvana', 'Pearl Jam', 'AliceinChains', 'Mudhoney']; 
 var bandNames = prompt["What's you favorite 90's band?"]
- var first = bandNames[0];
+var first = bandNames[0];
 var last = bandNames[bandNames-1];
-bandNames.forEach(function)item, index, array){
-    console.log
+bandNames.forEach(function(item, index, array){
+    console.log()
 }
-bandNames.push();
-var pos = bandNames.indexOf()
+function randomItem = bandNames = bandNames[Math.floor(Math.random() * bandNames.length)];
+function 
+document.body.innerHTML = bandNames;)
 
-if(score = )
-
+function resetGame()
+{
+    resetGame();
+    gameAnswer = chooseWord();
+    gameShownAnswer = blanksFromAnswer(gameAnswer);
+    hangmanState = 0;
+    drawWord(gameShownAnswer);
+}
 
 
 
