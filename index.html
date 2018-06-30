@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<reset class="css"></reset>
+<style>
+  body{
+    background-image: url(zabby-allen-bkgd.jpg);
+  }
+</style>
 <title>Hangman 90's Stye!</title>
 </head>
 <body>
@@ -24,8 +30,28 @@
         <p>Win Counter:</p>
        <p>Current Word:</p>
        <p>Letters Guessed:</p>
-       <p>Play A Song:</p>
-      <div></div>
+      <div id="song"><p>Play A Song: 
+        <audio id="myAudio">
+        <source src="floydthebarber.mp3" type="audio/mpeg">
+      </audio>
+      
+      <p>Click the buttons to play or pause the audio.</p>
+      
+      <button onclick="playAudio()" type="button">Play Audio</button>
+      <button onclick="pauseAudio()" type="button">Pause Audio</button> 
+      
+      <script>
+      var x = document.getElementById("myAudio"); 
+      
+      function playAudio() { 
+          x.play(); 
+      } 
+      
+      function pauseAudio() { 
+          x.pause(); 
+      } 
+      </script>Red</button></audio></p>
+      </div>
     <div></div>
   <div></div>
   </div>
