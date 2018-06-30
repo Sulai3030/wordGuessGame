@@ -1,0 +1,14 @@
+body {
+    background-image:url("../zabby-allen-bkgd.jpg");
+        background-image: url("paper.gif");
+        background-color: #50a9fd;
+        border: #000;
+        border-style: solid;
+        border-width: 2px;
+        color:white;
+     }
+     #outerdiv{
+         height: 800px;
+         width:800px;
+
+     }
